@@ -1,10 +1,23 @@
 
 h1 {
     color: blueviolet;
+    background: #5BC8AF;
+
+    border: 2px solid #645E9D;
+    /*border-color: #645E9D;*/
+    /*border-width: 5px;*/
+    /*border-style: solid;*/
 }
 li {
     color: orange;
+    background: #6C969D;
 }
 h4 {
     color: crimson;
+    background: #645E9D;
+}
+
+body {
+    background: url(https://wow.zamimg.com/uploads/news/13625-pcgamesn-interview-with-production-director-john-hight-allied-races-and-bfa-stor.jpg)
+    no-repeat; background-size: cover;
 }

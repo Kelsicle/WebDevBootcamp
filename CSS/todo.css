@@ -1,0 +1,13 @@
+body {
+    background: #645E9D;
+}
+
+/*Selects single uniquely identified element (id)*/
+#li-3 {
+    background: bisque;
+}
+
+/*Selects all elements of a class*/
+.complete {
+    text-decoration: line-through;
+}
