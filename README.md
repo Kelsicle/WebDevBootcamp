@@ -1,2 +1,7 @@
 # WebDevBootcamp
-WebDevBootcamp, practice, tasks, learning
+WebDev Bootcamp, practice, tasks, learning
+
+HTML units and tasks
+
+CSS units and tasks
+
