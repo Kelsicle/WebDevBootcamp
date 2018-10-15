@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login Form</h1>
+<!-- FORM STUFF -->
+<!-- action -> where the form sends data to -->
+<!-- method -> HTTP method (get/post) -->
+<!-- Block Level element -->
+<!-- <input type="color"> -->
+<!-- <input type="radio"> -->
+<!-- <form action=""> -->
+<!-- 'name' = assigns to http query, 'placeholder' = grey text in background of input box -->
+<!-- 'required', makes a field required to submit -->
+
+
+<form action="https://wikipedia.org" method="get">
+    <label for="">
+        Username:
+        <input name="username" type="text" placeholder="username">
+    </label>
+
+    <label for="">
+        Password:
+        <input name="password" type="password" placeholder="password">
+    </label>
+
+    <input type="submit">
+</form>
+
+<p></p>
+
+<form action="https://wikipedia.org" method="get">
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text" placeholder="username">
+
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email">
+
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" placeholder="password" required>
+
+    <input type="submit">
+</form>
+
+</body>
+</html>
