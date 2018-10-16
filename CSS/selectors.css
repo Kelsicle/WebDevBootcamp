@@ -1,0 +1,64 @@
+
+/*https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048*/
+
+/*Elements*/
+
+li {
+
+}
+
+/*Class*/
+
+.example {
+
+}
+
+/*ID*/
+
+#ID {
+
+}
+
+/*Star - select all*/
+
+* {
+    border: 2px solid lightgray;
+}
+
+/*Descendants - selects all of a type, when it is descended from another type*/
+/*all anchor elements that are descendants of list elements*/
+
+li a {
+    color: royalblue;
+}
+
+/*Adjacent - selects elements that come after another element (siblings)*/
+/*All un-ordered lists that follow a H4*/
+
+h4 + ul {
+    border: 2px solid darkred;
+}
+
+/*Attribute Selector*/
+
+a[href="http://www.google.com"] {
+    background: royalblue;
+}
+
+input[type="text"] {
+    background: #5BC8AF;
+}
+
+/*nth of type*/
+
+ul:nth-of-type(3) {
+    background: aqua;
+}
+
+li:nth-of-type(3) {
+    background: blue;
+}
+
+li:nth-of-type(even) {
+    background: forestgreen;
+}
