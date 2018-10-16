@@ -1,0 +1,42 @@
+
+/*li's inherit from parent ul element*/
+
+body {
+    color: red;
+}
+ul {
+    color: purple;
+}
+
+.highlight {
+    color: yellow;
+}
+
+#special {
+    color: green;
+}
+
+/* Can see inheritance in inspect tool on chrome, elements can inherit from multiple elements, style unused is crossed
+out, according to specificity (closest element styling is used, ie the least generalised element */
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity*/
+/*https://specificity.keegan.st*/
+
+/*From least to most specific*/
+
+/*Types*/
+li {}
+
+li a{}
+
+li + a {}
+
+/*Class, attribute, pseudo class*/
+
+.class {}
+
+input[type="text"]{}
+
+/*ID Selector*/
+
+#special {}
