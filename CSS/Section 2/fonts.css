@@ -1,0 +1,56 @@
+
+/*font-family*/
+
+p {
+    font-family: Arial;
+}
+
+h1 {
+    font-family: SansSerif
+}
+
+/*font-size*/
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 5.0em;
+}
+
+p {
+    font-size: 2.0em;
+}
+
+/*Dynamic based on context - 2 * size of parent*/
+span {
+    font-size: 2.0em;
+}
+
+/*font-weight*/
+
+p {
+    font-weight: bold; /* or 100-800, lightest-heaviest*/
+}
+
+/*line-height*/
+
+p {
+    line-height: 2; /*line gap, multiple of font size*/
+}
+
+/*text-allign*/
+
+h1 {
+    text-align: right;
+}
+p {
+    text-align: center;
+}
+p:nth-of-type(2) {
+    text-decoration: underline;
+}
+p:nth-of-type(3) {
+    text-decoration: line-through;
+}
